@@ -1,0 +1,80 @@
+:root {
+  --primary-text-color: #757575; /*Главный цвет текста*/
+  --secondary-text-color: #212121; /*Цвет текста заголовков*/
+  --accent-color: #2196f3; /*Цвет акцентов*/
+  --white-text-color: #ffffff; /*Белый цвет текста*/
+}
+
+/*Главный цвет текста #757575*/
+/*Вторичный цвет текста #212121*/
+/*Цвет акцентов #2196f3*/
+/*Белый цвет текста #ffffff*/
+/*Основной цвет фона #ffffff*/
+/*Вторичный цвет фона #F5F4FA*/
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* Site-nav, Aus-nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: #757575;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+.section .link {
+  color: #ffffff;
+}
+
+/* Features */
+.features .title {
+  color: var(--secondary-text-color);
+}
+
+/* Team */
+.team .title {
+  color: var(--secondary-text-color);
+}
